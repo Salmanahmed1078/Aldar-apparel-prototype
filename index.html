@@ -57,7 +57,11 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="hero-video-placeholder">
-            <div class="placeholder-content">
+            <video class="hero-video" autoplay muted loop playsinline onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <source src="/Users/salmanahmed/Downloads/Al Dar Appearal/assets/videos/main video 4.34.36 AM 4.34.47 AM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="placeholder-content" style="display: none;">
                 <div class="placeholder-title">VIDEO PLACEHOLDER</div>
                 <div class="placeholder-info">Aspect Ratio: 16:9</div>
                 <div class="placeholder-notes">Landing page video - Both male and female - Film with music</div>
@@ -66,14 +70,46 @@
         <div class="hero-overlay">
             <div class="branding">
             </div>
-            <div class="social-icons">
-                <a href="#" class="social-icon">Facebook</a>
-                <a href="#" class="social-icon">Instagram</a>
-                <a href="#" class="social-icon">LinkedIn</a>
-            </div>
+          
         </div>
         <div class="hero-cta">
             <button class="cta-button">Explore</button>
+        </div>
+    </section>
+
+    <!-- For Him / For Her Sections -->
+    <section class="him-her-showcase">
+        <div class="him-her-container">
+            <div class="him-her-card">
+                <div class="him-her-image-placeholder">
+                    <div class="him-her-overlay">
+                        <div class="him-her-text">
+                            <h2 class="him-her-title">For Him</h2>
+                            <a href="men.html" class="him-her-shop">SHOP</a>
+                        </div>
+                    </div>
+                    <div class="placeholder-content">
+                        <div class="placeholder-title">IMAGE PLACEHOLDER</div>
+                        <div class="placeholder-info">For Him Collection</div>
+                        <div class="placeholder-info">Aspect Ratio: 16:9</div>
+                    </div>
+                </div>
+            </div>
+            <div class="him-her-card">
+                <div class="him-her-image-placeholder">
+                    <div class="him-her-overlay">
+                        <div class="him-her-text">
+                            <h2 class="him-her-title">For Her</h2>
+                            <a href="women.html" class="him-her-shop">SHOP</a>
+                        </div>
+                    </div>
+                    <div class="placeholder-content">
+                        <div class="placeholder-title">IMAGE PLACEHOLDER</div>
+                        <div class="placeholder-info">For Her Collection</div>
+                        <div class="placeholder-info">Aspect Ratio: 16:9</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
